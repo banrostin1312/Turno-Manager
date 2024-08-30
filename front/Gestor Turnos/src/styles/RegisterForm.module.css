@@ -1,0 +1,65 @@
+
+.Registerformcontainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #d4ac0dc4;
+    margin-top: 40px;
+
+  }
+  
+  .formgroup {
+    margin-bottom: 20px;
+  }
+  
+  .Registerlabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .RegisterInput{
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff8a;
+  }
+  
+  .Registerbutton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .Registerbutton:hover {
+    background-color: #0056b3;
+  }
+  
+  .BackToLoginButton {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 15px; /* Tamaño de fuente */
+    position: absolute;
+    top: 10px; /* Distancia desde la parte superior */
+    left: 10px; /* Distancia desde la izquierda */
+  }
+  
+  /* Estilo cuando el cursor está sobre el botón */
+  .BackToLoginButton:hover {
+    background-color: #0056b3; /* Color de fondo oscuro */
+  }

@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://img.freepik.com/fotos-premium/pizzeria-anime_1037933-19.jpg?w=740'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen en el cuerpo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-attachment: fixed; /* Mantiene la imagen de fondo fija en su lugar */
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);/* Color del texto */
+    margin: 0; /* Eliminar el margen predeterminado del body */
+    padding: 0; /* Eliminar el relleno predeterminado del body */
+}
+
+footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,55 @@
+
+.loginformcontainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #d4ac0dc4;
+    margin-top: 40px;
+
+  }
+  
+  .formgroup {
+    margin-bottom: 20px;
+  }
+  
+  .Loginlabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .LoginInput {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff8a;
+  }
+  
+  .LoginButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .LoginButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .signUpLink {
+    text-decoration: none;
+    color: #1a0dd4ef;
+  }
+  .signUpLink:hover{
+    color: #1a0dd49f;
+  }

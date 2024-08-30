@@ -1,0 +1,48 @@
+/* Estilos para el formulario */
+.AddAppointmentformcontainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#d4ac0dc4;
+    color: black;
+  }
+  
+  /* Estilos para las etiquetas */
+  .AddAppointmentlabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los inputs */
+  .AddAppointmentinput[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el botón */
+  .AddAppointmentbutton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AddAppointmentbutton:hover {
+    background-color: #0056b3;
+  }
+  
+  .AddAppointmentbutton:disabled{
+  cursor: not-allowed;
+  opacity: .5;
+  }

@@ -1,0 +1,25 @@
+/* Estilos para el contenedor principal */
+.userInfoContainer {
+  margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontal */
+  width: 70%; /* Ancho del contenedor */
+  max-width: 500px; /* Ancho máximo del contenedor */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #d4ac0dc4;
+  text-align: center;
+}
+
+/* Estilos para las etiquetas de los campos */
+.userInfoContainer label {
+  font-weight: bold;
+  color: #333;
+  font-size: 25px;
+}
+
+/* Estilos para los valores de los campos */
+.userInfoContainer span {
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}

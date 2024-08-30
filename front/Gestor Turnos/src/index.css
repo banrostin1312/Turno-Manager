@@ -1,0 +1,27 @@
+.NavBar {
+    background-color: #f8faf8; /* Color de fondo */
+    padding: 10px; /* Espacio interno */
+  }
+  
+  .NavBar .navLinks {
+    display: flex; /* Alinear elementos en línea */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar en el contenedor */
+  }
+  
+  .NavBar .navLinks span {
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el elemento */
+  }
+  
+  .NavBar .navLinks span:hover {
+    color: #007bff; /* Cambiar color del texto al pasar sobre el elemento */
+  }
+  
+  .NavLinks{
+    color: #007bff;
+  }

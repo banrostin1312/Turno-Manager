@@ -1,0 +1,83 @@
+
+
+
+
+.turnoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  border: solid 2px rgb(255, 255, 255);
+  font-size: 22px;
+  height: 100px; /* Altura fija para cada fila */
+}
+
+.property {
+  display: flex;
+  flex-direction: column; 
+  flex-grow: 1; /* Los elementos crecerán para llenar el espacio disponible */
+  min-width: 0; /* Permitir que los elementos se contraigan si es necesario */
+}
+
+.propertyLabel {
+  min-width: 120px; /* Ancho mínimo para las etiquetas */
+  font-weight: bold;
+  color: black;
+}
+
+.propertyValue {
+  margin-right: 90px;
+  max-width: 200px; /* Ancho máximo para la descripción */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Cortar el texto que desborda */
+  white-space: nowrap; /* Evitar que el texto se desborde */
+}
+
+.turnoButtonCancel {
+  background-color: #dd8015; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 5px 10px; /* Espaciado interno */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+  font-size: 12px; /* Tamaño de fuente */
+  margin-left: 40px; /* Aplicar margen solo a la izquierda */
+}
+
+/* Estilo cuando el cursor está sobre el botón */
+.turnoButtonCancel:hover {
+  background-color: #c7601b; /* Color de fondo oscuro */
+}
+.turnoButtonCancel:disabled {
+  opacity: 0.5; /* Reducir la opacidad del botón cuando está deshabilitado */
+  cursor: not-allowed; /* Cambiar el cursor cuando está deshabilitado */
+  /* Puedes agregar otros estilos para un mejor aspecto visual del botón deshabilitado */
+}
+
+.turnoButtonDelete {
+  background-color: #e60909; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 5px 10px; /* Espaciado interno */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+  font-size: 12px; /* Tamaño de fuente */
+  margin-left: 40px; /* Aplicar margen solo a la izquierda */
+}
+
+/* Estilo cuando el cursor está sobre el botón */
+.turnoButtonDelete:hover {
+  background-color: #be2520; /* Color de fondo oscuro */
+}
+.turnoButtonDelete:disabled {
+  opacity: 0.5; /* Reducir la opacidad del botón cuando está deshabilitado */
+  cursor: not-allowed; /* Cambiar el cursor cuando está deshabilitado */
+  /* Puedes agregar otros estilos para un mejor aspecto visual del botón deshabilitado */
+}
+
+
+.ActiveGreen{
+  color: rgb(19, 245, 19);
+}
+.CanceledRed{
+  color: red;
+}

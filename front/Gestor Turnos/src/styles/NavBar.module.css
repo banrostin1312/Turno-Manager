@@ -1,0 +1,114 @@
+.NavBar {
+    background-color: #d4ac0dc4 ; /* Color de fondo */
+    padding: 10px; /* Espacio interno */
+    
+  }
+  
+  .NavBar .navLinks {
+    display: flex; /* Alinear elementos en línea */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar en el contenedor */
+  }
+  
+  .NavBar .navLinks Link {
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el elemento */
+  }
+
+  
+  .NavBar .navLinks span:hover {
+    color: #000000; /* Cambiar color del texto al pasar sobre el elemento */
+  }
+  
+ 
+  .navItem {
+    border: 1px solid rgb(250, 249, 253); /* Borde de 1px sólido negro */
+    padding: 10px 10px; /* Espaciado interno */
+    margin-right: 10px; /* Margen derecho entre los elementos */
+    transition: border-color 0.3s ease; /* Transición suave para el cambio de color del borde */
+    text-decoration: none;
+    color: #000;
+    background-color:#d4ac0dc4 ;
+    border-radius: 4px;
+}
+
+.navItem:hover {
+    border-color: #000000; /* Cambia el color del borde a blanco cuando el cursor pasa sobre el elemento */
+}
+
+
+.LogOutButton {
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.LogOutButton:hover {
+  background-color: #d32f2f;
+}
+.welcomeContainer {
+  background-color: #f8f9fa96; /* Color de fondo */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 4px; /* Borde redondeado */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  display: inline-block; /* Mostrar en línea */
+}
+
+.welcomeMessage {
+  color: #333; /* Color del texto */
+  font-size: 16px; /* Tamaño de fuente */
+  font-weight: bold; /* Peso de fuente en negrita */
+}
+
+.buttonNavBar{
+    background-color:  #d4ac0d00;
+    border: none;
+    cursor: pointer;
+}
+.buttonNavBar:disabled{
+  cursor: not-allowed;
+}
+
+.singInButton {
+  color: #fff;
+  background-color: #1fa014;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.singInButton:hover {
+  background-color: #35db14;
+}
+
+.BackToLoginButtonhome {
+  background-color: #007bff; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+  font-size: 15px; /* Tamaño de fuente */
+  position: absolute;
+  top: 10px; /* Distancia desde la parte superior */
+  left: 10px; /* Distancia desde la izquierda */
+}
+
+/* Estilo cuando el cursor está sobre el botón */
+.BackToLoginButtonhome:hover {
+  background-color: #0056b3; /* Color de fondo oscuro */
+}

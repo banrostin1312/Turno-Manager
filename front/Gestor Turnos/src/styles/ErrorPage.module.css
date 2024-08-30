@@ -1,0 +1,15 @@
+.pageNotFoundContainer {
+    text-align: center; /* Centrar el contenido */
+    margin-top: 100px; /* Margen superior */
+  }
+  
+  .pageNotFoundContainer h1 {
+    font-size: 32px; /* Tamaño de fuente del encabezado principal */
+    color: #f50000; /* Color del texto */
+    margin-bottom: 20px; /* Margen inferior */
+  }
+  
+  .pageNotFoundContainer h2 {
+    font-size: 24px; /* Tamaño de fuente del encabezado secundario */
+    color: #f50000; /* Color del texto */
+  }

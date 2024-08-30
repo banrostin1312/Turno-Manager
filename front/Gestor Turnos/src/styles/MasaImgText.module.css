@@ -1,0 +1,23 @@
+.MasaImgTextContainer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+    border: solid 2px white;
+    border-radius: 50px;
+ 
+  }
+  
+  .MasaImg {
+    width: 500px; /* ajusta el tamaño de la imagen según tus preferencias */
+    margin-right: 20px; /* ajusta el espacio entre la imagen y el texto */
+    border-radius: 10px;
+  }
+  
+  .MasaText {
+    flex: 1; /* hace que el texto ocupe todo el espacio disponible */
+    line-height: 2;
+    font-size: 17px;
+    color: #ffffff;
+  }
+  
