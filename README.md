@@ -11,3 +11,4 @@ TurnoManager es una aplicación de gestión de turnos diseñada para optimizar l
 - ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) **Bootstrap**: Estilización responsiva y componentes UI predefinidos.
 - ![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white) **Redux**: Gestión del estado global de la aplicación.
 - ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) **Vite**: Herramienta de construcción rápida para el desarrollo de la aplicación.
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) **TypeScript**: Superset de JavaScript que proporciona tipado estático para mejorar la calidad y mantenibilidad del código.
